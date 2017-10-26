@@ -1,3 +1,54 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+	margin: 0 auto;
+ }
+
+		/* ---------------MENU---------------*/
+
+/* -----Botón log in-----*/
+/* linear-gradient(#76278F, #2B1E66) */
+.botonLogIn{
+	font-family: 'Montserrat', sans-serif;
+	background: #2B1E66;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 18px;
+	margin: ;
+	padding: 10px 0px;
+	text-align: center;
+	width: 150px;
+	text-decoration: none;
+}
+
+		/* ---------------CONTENEDOR---------------*/
+
+.contenedor{
+	background-image: url(../assets/images/hero.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	/* el heigth se deja temporal mientras la caja contenedora se llena, porque sin
+	 ningún elemento, no se ve el fondo*/
+	height: 600px;
+ }
+
+/* -----Botón Become-----*/
+.botonBecome{
+	font-family: 'Montserrat', sans-serif;
+	background: #ff00bf;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 18px;
+	margin: ;
+	padding: 12px 10px;
+	text-align: center;
+	width: 180px;
+	text-decoration: none; 
+ }
+
+ 		/* ---------------VIDEOS---------------*/
+
+
+ 		/* ---------------PIE PAGINA---------------*/
