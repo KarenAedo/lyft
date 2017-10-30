@@ -1,30 +1,16 @@
 /*
  * Estilos de tu proyecto
  */
+
  body{
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
  }
 
-		/* ---------------MENU---------------*/
+		/* ---------------CONTENEDOR1---------------*/
 
-/* -----Botón log in-----*/
-/* linear-gradient(#76278F, #2B1E66) */
-.botonLogIn{
-	font-family: 'Montserrat', sans-serif;
-	background: #2B1E66;
-	color: #ffffff;
-	display: inline-block;
-	font-size: 18px;
-	margin: ;
-	padding: 10px 0px;
-	text-align: center;
-	width: 150px;
-	text-decoration: none;
-}
-
-		/* ---------------CONTENEDOR---------------*/
-
-.contenedor{
+.contenedor1{
 	background-image: url(../assets/images/hero.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -32,7 +18,56 @@
 	/* el heigth se deja temporal mientras la caja contenedora se llena, porque sin
 	 ningún elemento, no se ve el fondo*/
 	height: 600px;
+	margin: 0;
+	padding: 0;
  }
+
+		/* ---------------MENU---------------*/
+nav{
+	
+}
+
+.logo, .drive, .explore, .help, .boton{
+	text-decoration: none;
+	list-style: none;
+	color: #ffffff;
+	font-size: ;
+	font-weight: ;
+	display: inline-block;
+}
+
+/* Logo */
+.logoBlanco{
+	width: 50px;
+	height: 30px;
+	position: relative;
+}
+
+
+/* -----Botón log in-----*/
+.formulario{
+	background: #ffffff;
+	width: 600px;
+}
+
+
+/* -----Botón log in-----*/
+/* linear-gradient(#76278F, #2B1E66) */
+.botonLogIn{
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 18px;
+	margin:  ;
+	padding: 10px 0px;
+	text-align: center;
+	width: 100px;
+	text-decoration: none;
+}
+
 
 /* -----Botón Become-----*/
 .botonBecome{
@@ -48,7 +83,161 @@
 	text-decoration: none; 
  }
 
- 		/* ---------------VIDEOS---------------*/
+		/* ---------------CONTENEDOR2---------------*/
+.contenedor2{
+	background: 
+	width: 100%
 
+
+}
+
+
+ 		/* ---------------VIDEOS---------------*/
+/* video1*/
+.seccion1{
+	margin: 0;
+	padding: 0;	
+	width: 100%;
+	overflow: auto
+}
+
+.caja1{
+	width: 350px;
+	display: inline-block;
+	padding-top: 100px;
+	margin-left: 70px;
+	margin-right: 50px;
+	float: left;
+}
+
+
+/* Atributos comunes para los 3 contenedores de videos */
+h5{
+	font-weight: 500;
+	font-size: 15px;
+	margin-bottom: 5px
+}
+h2{
+	font-weight: 700;
+	line-height: 1.1;
+	font-size: 28px;
+	margin: 0;
+}
+p{
+	line-height: 1.5;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+iframe{
+	width: 800px;
+	height: 430px;
+	margin: 0;
+	padding: 0;
+}
+/* Fin de atributos comunes para los 3 contenedores de videos */
+
+
+.cajaVideo1{
+	display: inline-block;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* video2*/
+.seccion2{
+	margin: 0;
+	padding: 0;
+	width: 100%;	
+	overflow: auto;
+}
+
+.caja2{
+	width: 350px;
+	display: inline-block;
+	padding-top: 100px;
+	margin-top: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: right;
+
+}
+
+.cajaVideo2{
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* video3*/
+.seccion3{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: auto;
+}
+
+.caja3{
+	width: 350px;
+	padding-top: 100px;
+	display: inline-block;
+	margin-top: 0;
+	margin-left: 70px;
+	margin-right: 50px;
+	float: left;
+}
+
+.cajaVideo3{
+	display: inline-block;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
 
  		/* ---------------PIE PAGINA---------------*/
+
+footer{
+	margin: 0;
+	padding: 100px;
+	background-color: #333447;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.logIn, .partner, .learn, .logos{
+	text-decoration: none;
+	list-style: none;
+	display: inline-table;
+	width: 200px;
+	text-align: left;
+	
+}
+.logIn, .partner, .learn{
+	line-height: 3;
+}
+
+img{
+	width: 160px;
+}
+
+/* Logos de Redes Sociales*/
+
+
+/* Línea de separación*/
+hr{
+	width: 70%;
+	color: #ffffff;
+}
+
+/* Copyright*/
+.copyright{
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 50px;
+}
